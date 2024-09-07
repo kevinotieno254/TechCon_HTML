@@ -3,45 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCon 2024</title>
+    <title>Contact Us - TechCon 2024</title>
 </head>
 <body>
     <header>
         <h1>Contact Us</h1>
         <nav>
             <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="schedule.html">schedule</a></li>
-                <li><a href="register.html"></a>register</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <a href="mailto:email@example.com"></a>
-            <ul>
-                <li><a href="facebook.html">facebook</a></li>
-                <li><a href="twitter.html"></a>twitter</li>
-                <li><a href="instagram.html">instagram</a></li>
-            </ul>
-            <iframe src="" frameborder="0"></iframe>
-            <form action="">
-                <label for="name.html"></label>
-                <input type="name">
-                <label for="email.html"></label>
-                <input type="email">
-                <label for="message"></label>
-                <input type="text">
-                <button type="submit">
-                    <input type="text">
 
-                </button>
+    <main>
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:info@techcon2024.com">info@techcon2024.com</a></p>
+            <p>Social Media:
+                <a href="https://www.facebook.com/techcon2024" target="_blank">Facebook</a>,
+                <a href="https://twitter.com/techcon2024" target="_blank">Twitter</a>,
+                <a href="https://www.linkedin.com/company/techcon2024" target="_blank">LinkedIn</a>
+            </p>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.876921208099!2d-0.12769228422074937!3d51.50769448233396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604e62c2a891f%3A0x52963a5addd52a99!2sBig%20Ben!5e0!3m2!1sen!2suk!4v1624471028334!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Us Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
             </form>
         </section>
     </main>
+
     <footer>
-        <p>&cap; copyright 2024 TechCom. All rights reserved.</p>
+        <p> &copy; Copyright 2024 TechCon</p>
     </footer>
 </body>
 </html>
